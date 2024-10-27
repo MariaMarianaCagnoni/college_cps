@@ -96,3 +96,7 @@ HTTP -> DTO <-> Controller <-> Mapper (DTO/Entity) <-> Service <-> Repository
 utilizado para mapeat DTO para Entity e vs.
 
 http://modelmapper.org/
+
+## DER 
+
+![MER.png](..%2Fprojeto-final-spring-boot-main%2FMER.png)
