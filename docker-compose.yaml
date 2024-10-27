@@ -2,7 +2,7 @@ version: '3.3'
 services:
   postgres:
     container_name: academy_postgres
-    image: postgres:13-alpine
+    image: postgres:17.0-alpine3.20
     environment:
       - POSTGRES_USER=academy
       - POSTGRES_PASSWORD=2easy2forget
