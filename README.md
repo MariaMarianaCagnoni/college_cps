@@ -97,6 +97,3 @@ utilizado para mapeat DTO para Entity e vs.
 
 http://modelmapper.org/
 
-## DER
-
-![DER](C:\Users\maria\OneDrive\Desktop\projeto-final-spring-boot-main\MER.png)
