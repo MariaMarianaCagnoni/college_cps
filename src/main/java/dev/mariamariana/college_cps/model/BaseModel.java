@@ -2,7 +2,7 @@ package dev.mariamariana.college_cps.model;
 
 import java.time.LocalDateTime;
 
-public interface BaseModel<T>{
+public interface BaseModel<T> {
 
     T safeUpdateInfo(T entity);
 
