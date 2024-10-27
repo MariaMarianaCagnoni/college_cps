@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  postgres:
+    container_name: academy_postgres
+    image: postgres:13-alpine
+    environment:
+      - POSTGRES_USER=academy
+      - POSTGRES_PASSWORD=2easy2forget
+      - POSTGRES_DB=academy_db
+    volumes:
+      - 'pg-data:/var/lib/postgresql'
+    ports:
+      - '5432:5432'
+volumes:
+  pg-data:
