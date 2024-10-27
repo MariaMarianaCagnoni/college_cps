@@ -6,6 +6,5 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 public interface IProfessorServiceAggregator extends IBaseService<Professor, Long> {
-
     Page<Curso> findAllCursosByProfessorId(Long professorId, Pageable pageable);
 }
