@@ -6,4 +6,5 @@ import org.springframework.data.domain.Pageable;
 
 public interface IProfessorService extends IBaseService<Professor, Long> {
     Page<Professor> findAllByNomePageable(String nome, Pageable pageable);
+
 }
