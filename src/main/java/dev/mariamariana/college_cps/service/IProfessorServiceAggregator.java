@@ -5,6 +5,6 @@ import dev.mariamariana.college_cps.model.Professor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-public interface IProfessorServiceAggregator extends IBaseService<Professor, Long> {
+public interface IProfessorServiceAggregator  {
     Page<Curso> findAllCursosByProfessorId(Long professorId, Pageable pageable);
 }
