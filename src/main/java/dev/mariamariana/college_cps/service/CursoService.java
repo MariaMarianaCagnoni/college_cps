@@ -4,7 +4,10 @@ import dev.mariamariana.college_cps.model.Curso;
 import dev.mariamariana.college_cps.repository.CursoRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class CursoService extends BaseService<Curso, Long> implements ICursoService {
 
     private final CursoRepository cursoRepository;

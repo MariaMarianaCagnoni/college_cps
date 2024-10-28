@@ -4,7 +4,9 @@ import dev.mariamariana.college_cps.model.Professor;
 import dev.mariamariana.college_cps.repository.ProfessorRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ProfessorService extends BaseService<Professor, Long> implements IProfessorService  {
     private final ProfessorRepository professorRepository;
     private final CursoService cursoService;
