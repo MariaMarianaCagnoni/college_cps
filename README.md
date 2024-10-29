@@ -93,7 +93,7 @@ HTTP -> DTO <-> Controller <-> Mapper (DTO/Entity) <-> Service <-> Repository
 
 
 ## Model Mapper
-utilizado para mapeat DTO para Entity e vs.
+utilizado para mapear DTO para Entity e vs.
 
 http://modelmapper.org/
 
