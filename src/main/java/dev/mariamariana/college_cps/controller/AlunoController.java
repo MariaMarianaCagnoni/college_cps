@@ -40,7 +40,7 @@ public class AlunoController {
     }
 
     @GetMapping("{id}")
-    public ResponseEntity<AlunoDTO> findById(@PathVariable Long id) {
+        public ResponseEntity<AlunoDTO> findById(@PathVariable Long id) {
         var aluno = this.alunoService.findById(id);
         return new ResponseEntity<>(this.modelMapper.map(aluno, AlunoDTO.class), HttpStatus.OK);
     }
