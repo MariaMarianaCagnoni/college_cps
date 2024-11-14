@@ -97,3 +97,8 @@ utilizado para mapear DTO para Entity e vs.
 
 http://modelmapper.org/
 
+
+## Swagger (documentação da API)
+
+http://localhost:8085/swagger-ui/index.html
+
