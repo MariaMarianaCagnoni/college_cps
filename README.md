@@ -97,8 +97,23 @@ utilizado para mapear DTO para Entity e vs.
 
 http://modelmapper.org/
 
+--------------------------------------------
 
-## Swagger (documentação da API)
+## Como executar localmente.
+
+### passo 1: Necessário Java 17 na sua máquina.
+
+### passo 2: Suba o container do postgres
+ - vá até a raiz do projeto e execute o comando abaixo(necessário ter docker instalado)
+```bash
+docker-compose up -d
+```
+### passo 3: executar o projeto
+
+
+
+## Swagger 
+ - com o Swagger você pode visualizar a documentação da API.
 
 http://localhost:8085/swagger-ui/index.html
 
